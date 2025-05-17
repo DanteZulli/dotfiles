@@ -31,6 +31,13 @@ workspace 9 output DP-2
 workspace 10 output DP-2
 {{- end }}
 
+### Input configuration
+{{- if eq .chezmoi.hostname "negrita"}}
+input type:keyboard {
+    xkb_layout es
+}
+{{- end}}
+
 ### Key bindings
 #
 # Basics:
