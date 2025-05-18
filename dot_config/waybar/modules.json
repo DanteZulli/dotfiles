@@ -13,9 +13,6 @@
 	"calendar": {
 	    "mode": "month",
 	    "format": {
-	        "months": "<span color='#ff6699'>{}</span>",
-		"days": "<span color='#cdd6f4'>{}</span>",
-		"weekdays": "<span color='#7CD37C'>{}</span>",
 		"today": "<span color='#ffcc66'>{}</span>"
 	    }
 	}
