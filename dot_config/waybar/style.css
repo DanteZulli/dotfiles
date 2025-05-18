@@ -33,7 +33,7 @@ window#waybar {
 #network,
 #pulseaudio,
 #tray {
-    border-right: 1px solid rgba(251, 241, 199, 0.6);
+    border-right: 1px solid rgba(251, 241, 199, 0.2);
     padding-left: 8px;
     padding-right: 8px;
 }
