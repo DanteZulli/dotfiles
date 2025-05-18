@@ -12,7 +12,8 @@
     "modules-right": [
 	"pulseaudio",
 	"network",
-        "tray"
+        "tray",
+	"clock"
     ],
 
      // Load Modules
