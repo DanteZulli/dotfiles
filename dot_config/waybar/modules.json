@@ -1,7 +1,7 @@
 {
     "sway/window": {
     	"max-length": 50
-    }
+    },
     "sway/mode": {
         "format": "<span style=\"italic\">{}</span>"
     },
