@@ -9,7 +9,7 @@
 }
 
 window#waybar {
-    background-color: rgba(146, 131, 116, 0.8);
+    background-color: rgba(29, 32, 33, 0.8);
 }
 
 #workspaces {
@@ -33,7 +33,7 @@ window#waybar {
 #network,
 #pulseaudio,
 #tray {
-    border-right: 1px solid rgba(29,32,33,0.8);
+    border-right: 1px solid rgba(146, 131, 116, 0.8);
     padding-left: 8px;
     padding-right: 8px;
 }
