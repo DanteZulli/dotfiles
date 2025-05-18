@@ -8,7 +8,7 @@
     },
     "clock": {
         "timezone": "America/Argentina/Buenos_Aires",
-        "format": "{:%Y-%m-%d %H:%M}"
+        "format": "{:%Y-%m-%d %H:%M}",
 	"tooltip-format": "<span>{calendar}</span>",
 	"calendar": {
 	    "mode": "month",
