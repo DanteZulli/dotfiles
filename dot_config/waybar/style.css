@@ -74,7 +74,7 @@ window#waybar {
 }
 
 #network.disconnected {
-    color: red;
+    color: #cc241d;
 }
 
 #tray > .passive {
@@ -83,5 +83,5 @@ window#waybar {
 
 #tray > .needs-attention {
     -gtk-icon-effect: highlight;
-    background-color: red;
+    background-color: #cc241d;
 }
