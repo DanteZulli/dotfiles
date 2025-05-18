@@ -34,9 +34,10 @@ window#waybar {
 #network,
 #pulseaudio,
 #tray {
-    border-right: 1px solid red;
+    border-right: 1px solid #458588;
     padding: 0 0.5em;
 }
+
 
 #battery {
     background-color: #ffffff;
