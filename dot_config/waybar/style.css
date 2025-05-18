@@ -12,6 +12,10 @@ window#waybar {
     background-color: rgba(29, 32, 33, 0.8);
 }
 
+#workspaces {
+    margin-right: 5px;
+}
+
 #workspaces button {
     padding: 0 0.2em;
     background-color: transparent;
