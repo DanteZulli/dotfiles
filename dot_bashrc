@@ -7,7 +7,7 @@
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-PS1='[\d \t \u@\h \W]\$ '
+PS1='[\d \t \u@\h \W] $ '
 
 # Exports
 export EDITOR=/usr/bin/nano
