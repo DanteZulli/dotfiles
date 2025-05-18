@@ -9,6 +9,7 @@
     ],
     "modules-center": ["sway/window"],
     "modules-right": [
+	"privacy",
 	"pulseaudio",
 	"network",
         "tray",
