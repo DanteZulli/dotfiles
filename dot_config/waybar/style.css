@@ -28,6 +28,7 @@ window#waybar {
     background-color: #cc241d;
 }
 
+#clock,
 #privacy,
 #battery,
 #network,
