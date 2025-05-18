@@ -20,7 +20,6 @@
 	"format": " {bandwidthDownBytes} -  {bandwidthUpBytes}"
 	"format-disconnected": "󰖪",
 	"tooltip-format": "Network: <big><b>{essid}</b></big>nSignal strength: <b>{signaldBm}dBm ({signalStrength}%)</b>nFrequency: <b>{frequency}MHz</b>nInterface: <b>{ifname}</b>",
-"format-linked": " {ifname} (No IP)",
     },
     "pulseaudio": {
         "scroll-step": 5,
