@@ -35,7 +35,8 @@ window#waybar {
 #pulseaudio,
 #tray {
     border-right: 1px solid #ffffff;
-    padding: 0 0.5em;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 
