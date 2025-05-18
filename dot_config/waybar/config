@@ -5,10 +5,9 @@
     "margin": "0 0 0 0",
     "modules-left": [
         "sway/workspaces",
-	"sway/window",
 	"sway/mode"
     ],
-    "modules-center": ["clock"],
+    "modules-center": ["sway/window"],
     "modules-right": [
 	"pulseaudio",
 	"network",
