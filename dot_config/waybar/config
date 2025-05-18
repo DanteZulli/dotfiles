@@ -6,15 +6,15 @@
     "spacing": 4,
     "modules-left": [
         "sway/workspaces",
-	"sway/mode"
+	"sway/mode",
+	"sway/window",
     ],
-    "modules-center": ["sway/window"],
+    "modules-center": ["clock"],
     "modules-right": [
 	"privacy",
 	"pulseaudio",
 	"network",
         "tray",
-	"clock"
     ],
 
      // Load Modules
