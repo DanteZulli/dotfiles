@@ -15,11 +15,6 @@
 		"tooltip": true,
 		"tooltip-icon-size": 18
 	    },
-	    {
-		"type": "audio-out",
-		"tooltip": true,
-		"tooltip-icon-size": 24
-	    },
 	]
     },
     "tray": {
