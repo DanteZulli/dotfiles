@@ -1,6 +1,9 @@
 {
+    "sway/mode": {
+        "format": "<span style=\"italic\">{}</span>"
+    },
     "tray": {
-        "spacing": 10,
+        "spacing": 5,
 	"tooltip": false
     },
     "clock": {
