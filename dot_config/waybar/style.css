@@ -39,6 +39,10 @@ window#waybar {
     padding-right: 8px;
 }
 
+#clock {
+    border-right: none;
+}
+
 
 #battery {
     background-color: #ffffff;
