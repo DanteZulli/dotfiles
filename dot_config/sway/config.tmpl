@@ -20,8 +20,16 @@ set $menu wofi --show drun
 ### Output configuration
 {{- if eq .chezmoi.hostname "lachata" }}
 output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
-output DP-1 resolution 1920x1080 pos 0 0 
-output DP-2 resolution 1080x1920 pos 1920 -335 transform 90
+output DP-1 {
+    resolution 1920x1080
+    pos 0 0
+}
+output DP-2 {
+    resolution 1080x1920
+    pos 1920 0
+    transform 90
+    default_orientation vertical
+}
 # Workspaces para DP-1
 workspace 1 output DP-1
 workspace 2 output DP-1
