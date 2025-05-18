@@ -13,7 +13,7 @@ window#waybar {
 }
 
 #workspaces {
-    margin-right: 5px;
+    margin-right: 0.5em;
 }
 
 #workspaces button {
