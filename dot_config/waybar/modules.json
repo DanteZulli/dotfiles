@@ -15,11 +15,9 @@
 	"tooltip": false,
     },
     "network": {
-        "format-wifi" : "wifi {bandwidthDownBits}",
-        "format-ethernet": "enth {bandwidthDownBits}",
-        "format-disconnected" : "no network",
-        "interval": 5,
-        "tooltip": false
+        "tooltip": true,
+	"rotate": 0,
+	"format": "{bandwidthDownBytes}{bandwidthUpBytes}"
     },
     "pulseaudio": {
         "scroll-step": 5,
