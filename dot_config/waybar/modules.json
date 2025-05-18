@@ -19,7 +19,7 @@
 	"rotate": 0,
 	"format": " {bandwidthDownBytes} -  {bandwidthUpBytes}",
 	"format-disconnected": "󰖪",
-	"tooltip-format": "{ifname}",
+	"tooltip-format": "{ifname} via {gwaddr}",
 	"tooltip-format-disconnected": "Disconnected",
 	"interval": 5,
     },
