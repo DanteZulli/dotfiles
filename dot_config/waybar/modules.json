@@ -9,13 +9,6 @@
     "clock": {
         "timezone": "America/Argentina/Buenos_Aires",
         "format": "{:%Y-%m-%d %H:%M}",
-	"tooltip-format": "<span>{calendar}</span>",
-	"calendar": {
-	    "mode": "month",
-	    "format": {
-		"today": "<span color='#ffcc66'>{}</span>"
-	    }
-	}
     },
     "network": {
         "format-wifi" : "wifi {bandwidthDownBits}",
