@@ -19,7 +19,8 @@
 	"rotate": 0,
 	"format": " {bandwidthDownBytes} -  {bandwidthUpBytes}",
 	"format-disconnected": "󰖪",
-	"tooltip-format": "Network: <big><b>{essid}</b></big>nSignal strength: <b>{signaldBm}dBm ({signalStrength}%)</b>nFrequency: <b>{frequency}MHz</b>nInterface: <b>{ifname}</b>",
+	"tooltip-format": "{ifname}",
+	"tooltip-format-disconnected": "Disconnected",
     },
     "pulseaudio": {
         "scroll-step": 5,
