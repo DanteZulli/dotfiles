@@ -11,6 +11,5 @@ PS1='\[\e[92m\][\[\e[95m\]\t\[\e[0m\] \[\e[92m\]-\[\e[0m\] \u\[\e[92m\]@\[\e[0m\
 
 # Exports
 export EDITOR=/usr/bin/nano
-[[ -s "/home/dante/.sdkman/bin/sdkman-init.sh" ]] && source "/home/dante/.sdkman/bin/sdkman-init.sh"
 
 fortune
