@@ -11,3 +11,5 @@ PS1='[\u@\h \W]\$ '
 
 # Exports
 export EDITOR=/usr/bin/nano
+
+fortune
