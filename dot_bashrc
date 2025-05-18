@@ -13,3 +13,7 @@ PS1='\[\e[92m\][\[\e[95m\]\t\[\e[0m\] \[\e[92m\]-\[\e[0m\] \u\[\e[92m\]@\[\e[0m\
 export EDITOR=/usr/bin/nano
 
 fortune
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
