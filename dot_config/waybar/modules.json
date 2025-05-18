@@ -9,6 +9,10 @@
         "spacing": 5,
 	"tooltip": false
     },
+    "privacy": {
+	"spacing": 5,
+	"icon-size": 16,
+    },
     "clock": {
         "timezone": "America/Argentina/Buenos_Aires",
         "format": "{:%Y-%m-%d %H:%M}",
