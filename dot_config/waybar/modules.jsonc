@@ -7,9 +7,9 @@
         "spacing": 10
     },
     "clock": {
-        // "timezone": "America/New_York",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
+        "timezone": "America/Argentina/Buenos_Aires",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "format": "{:%Y-%m-%d %H:%M}"
     },
     "temperature": {
         // "thermal-zone": 2,
