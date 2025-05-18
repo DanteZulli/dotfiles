@@ -24,10 +24,10 @@
 	"interval": 5,
     },
     "pulseaudio": {
-        "scroll-step": 5,
+        "scroll-step": 1,
         "max-volume": 150,
-        "format": "V:{volume}%|",
-        "format-bluetooth": "V: {volume}%",
+        "format": "V:{volume}%",
+        "format-bluetooth": "V:{volume}%",
         "nospacing": 1,
         "on-click": "pavucontrol",
         "tooltip": false
