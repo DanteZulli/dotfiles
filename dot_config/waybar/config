@@ -8,9 +8,11 @@
         "sway/workspaces",
     ],
     "modules-center": [
-    	"clock"
+	"clock"
     ],
     "modules-right": [
+	"cpu",
+	"memory",
         "pulseaudio",
         "network",
         "tray"
