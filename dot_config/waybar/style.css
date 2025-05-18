@@ -35,6 +35,7 @@ window#waybar {
 #pulseaudio,
 #tray {
     border-right: 1px solid red;
+    padding: 0 0.5em;
 }
 
 #battery {
