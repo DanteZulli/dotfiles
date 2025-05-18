@@ -21,6 +21,7 @@
 	"format-disconnected": "󰖪",
 	"tooltip-format": "{ifname}",
 	"tooltip-format-disconnected": "Disconnected",
+	"interval": 5,
     },
     "pulseaudio": {
         "scroll-step": 5,
