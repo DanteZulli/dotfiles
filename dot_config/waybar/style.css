@@ -8,6 +8,10 @@
     color: white;
 }
 
+#waybar > box:nth-child(2) > box:nth-child(3) > * > label {
+	border-right: 1px solid red;
+}
+
 window#waybar {
     background-color: rgba(29, 32, 33, 0.8);
 }
