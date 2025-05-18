@@ -9,6 +9,7 @@
     "clock": {
         "timezone": "America/Argentina/Buenos_Aires",
         "format": "{:%Y-%m-%d %H:%M}",
+	"tooltip": false,
     },
     "network": {
         "format-wifi" : "wifi {bandwidthDownBits}",
