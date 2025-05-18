@@ -3,32 +3,10 @@
         "spacing": 10,
 	"tooltip": false
     },
-    "sway/workspaces": {
-        "disable-scroll": true,
-        "all-outputs": true,
-        "tooltip": false
-    },
     "clock": {
         "timezone": "America/Argentina/Buenos_Aires",
         "tooltip-format": "<tt><small>{calendar}</small></tt>",
         "format": "{:%Y-%m-%d %H:%M}"
-    },
-    "cpu": {
-        "format": "cpu {usage}%",
-        "interval": 2,
-
-        "states": {
-            "critical": 90
-        }
-    },
-
-    "memory": {
-        "format": "mem {percentage}%",
-        "interval": 2,
-
-        "states": {
-            "critical": 80
-        }
     },
     "network": {
         "format-wifi" : "wifi {bandwidthDownBits}",
