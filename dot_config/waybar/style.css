@@ -8,10 +8,6 @@
     color: white;
 }
 
-#waybar > box:nth-child(2) > box:nth-child(3) > * > label {
-	border-right: 1px solid red;
-}
-
 window#waybar {
     background-color: rgba(29, 32, 33, 0.8);
 }
@@ -33,23 +29,12 @@ window#waybar {
     background-color: #cc241d;
 }
 
-#clock,
+#privacy,
 #battery,
-#cpu,
-#memory,
-#disk,
-#temperature,
-#backlight,
 #network,
 #pulseaudio,
-#wireplumber,
-#custom-media,
-#tray,
-#mode,
-#idle_inhibitor,
-#scratchpad,
-#power-profiles-daemon,
-#mpd {
+#tray {
+    border-right: 1px solid red;
     padding: 0 0.5em;
 }
 
