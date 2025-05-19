@@ -25,7 +25,7 @@
             "critical": 15
         },
         "format": "{capacity}%",
-        "format-charging": "{capacity}% Chr,
+        "format-charging": "{capacity}% Chr",
         "format-plugged": "{capacity}% Conn",
         "format-alt": "{time}",
     },
