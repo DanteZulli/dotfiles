@@ -14,6 +14,9 @@
 	"pulseaudio",
 	"network",
         "tray",
+	{{- if eq .chezmoi.hostname "negrita"}}
+	"battery",
+	{{- end}}
 	"clock",
     ],
 
