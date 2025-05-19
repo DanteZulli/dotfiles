@@ -44,8 +44,8 @@
     "pulseaudio": {
         "scroll-step": 1,
         "max-volume": 150,
-        "format": "V:{volume}%",
-        "format-bluetooth": "V:{volume}%",
+        "format": "{volume}%",
+        "format-bluetooth": "{volume}%",
         "nospacing": 1,
         "on-click": "pavucontrol",
         "tooltip": false
