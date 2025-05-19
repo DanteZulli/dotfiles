@@ -21,16 +21,13 @@
     },
     "battery": {
         "states": {
-            // "good": 95,
             "warning": 30,
             "critical": 15
         },
-        "format": "{capacity}% {icon}",
-        "format-full": "{capacity}% {icon}",
-        "format-charging": "{capacity}% ",
-        "format-plugged": "{capacity}% ",
-        "format-alt": "{time} {icon}",
-        "format-icons": ["", "", "", "", ""]
+        "format": "{capacity}%",
+        "format-charging": "{capacity}% Chr,
+        "format-plugged": "{capacity}% Conn",
+        "format-alt": "{time}",
     },
     "network": {
         "tooltip": true,
