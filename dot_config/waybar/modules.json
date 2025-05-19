@@ -15,8 +15,9 @@
     },
     "clock": {
         "timezone": "America/Argentina/Buenos_Aires",
-        "format": "{:%Y-%m-%d %H:%M}",
+        "format": "{:%Y-%m-%d %H:%M:%S}",
 	"tooltip": false,
+	"interval": 1,
     },
     "battery": {
         "states": {
