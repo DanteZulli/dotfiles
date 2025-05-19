@@ -33,7 +33,7 @@
         "tooltip": true,
 	"rotate": 0,
 	"format-wifi": "W: {bandwidthDownBytes} - {bandwidthUpBytes}",
-	"format-ehternet": "E: {bandwidthDownBytes} - {bandwidthUpBytes}",
+	"format-ethernet": "E: {bandwidthDownBytes} - {bandwidthUpBytes}",
 	"format-disconnected": "Disconnected",
 	"tooltip-format": "{ifname}: {gwaddr}",
 	"tooltip-format-disconnected": "Disconnected",
