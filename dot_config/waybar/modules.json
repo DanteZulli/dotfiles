@@ -15,7 +15,7 @@
     },
     "clock": {
         "timezone": "America/Argentina/Buenos_Aires",
-        "format": "{:%Y-%m-%d %H:%M:%S}",
+        "format": "<span font='10'>󰥔 </span>{:%Y-%m-%d %H:%M:%S}",
 	"tooltip": false,
 	"interval": 1,
     },
