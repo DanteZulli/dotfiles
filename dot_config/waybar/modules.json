@@ -15,7 +15,7 @@
     },
     "clock": {
         "timezone": "America/Argentina/Buenos_Aires",
-        "format": "<span font='14'> </span>{:%Y-%m-%d %H:%M:%S}",
+        "format": "<span font='14' rise='1000'> </span>{:%Y-%m-%d %H:%M:%S}",
 	"tooltip": false,
 	"interval": 1,
     },
