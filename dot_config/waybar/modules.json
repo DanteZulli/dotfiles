@@ -12,6 +12,7 @@
     "privacy": {
 	"spacing": 5,
 	"icon-size": 16,
+	"tooltip": false,
     },
     "clock": {
         "timezone": "America/Argentina/Buenos_Aires",
