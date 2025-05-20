@@ -7,7 +7,7 @@
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-PS1='\[\e[92m\][\[\e[95m\]\t\[\e[0m\] \[\e[92m\]-\[\e[0m\] \u\[\e[92m\]@\[\e[0m\]\H \[\e[94;7m\]\W\[\e[0;92m\]]\[\e[0m\] \[\e[92m\]\\$\[\e[0m\] '
+PS1='\[\e[92m\][\t\[\e[0m\] \[\e[92m\]-\[\e[0m\] \[\e[92m\]\u@\H\[\e[0m\] \[\e[92m\]\W]\[\e[0m\] \[\e[92m\]\\$\[\e[0m\]'
 
 # Exports
 export EDITOR=/usr/bin/nano
