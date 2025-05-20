@@ -20,9 +20,9 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "{capacity}%",
-        "format-charging": "{capacity}% Chr",
-        "format-plugged": "{capacity}% Conn",
+        "format": "B: {capacity}%",
+        "format-charging": "B: {capacity}% Chr",
+        "format-plugged": "B: {capacity}% Conn",
         "format-alt": "{time}",
     },
     "network": {
@@ -38,7 +38,7 @@
     "pulseaudio": {
         "scroll-step": 1,
         "max-volume": 150,
-        "format": "{volume}%",
+        "format": "V: {volume}%",
 	"format-muted": "muted",
         "nospacing": 1,
         "on-click": "pavucontrol",
