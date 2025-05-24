@@ -11,7 +11,6 @@ PS1='\[\e[92m\][\t\[\e[0m\] \[\e[92m\]-\[\e[0m\] \[\e[92m\]\u@\H\[\e[0m\] \[\e[9
 
 # Exports
 export EDITOR=/usr/bin/nano
-export QT_QPA_PLATFORMTHEME=qt5ct
 
 fortune
 
