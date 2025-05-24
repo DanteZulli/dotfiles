@@ -3,7 +3,7 @@
     	"max-length": 50
     },
     "sway/mode": {
-        "format": "<span style=\"italic\">{}</span>"
+        "format": "<span style=\"font-style: italic; color: #458588;\">{}</span>"
     },
     "tray": {
         "spacing": 5,
