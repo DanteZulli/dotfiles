@@ -51,6 +51,12 @@ output * bg /usr/share/backgrounds/my-backgrounds/night_moon.png fill
 
 
 ### Input configuration
+{{- if eq .chezmoi.hostname "lachata" }}
+input type:keyboard {
+    xkb_layout us
+    xkb_variant intl
+}
+{{- end }}
 {{- if eq .chezmoi.hostname "negrita"}}
 input type:keyboard {
     xkb_layout es
