@@ -18,7 +18,7 @@ set $right l
 # Your preferred terminal emulator
 set $term foot
 # Your preferred application launcher
-set $menu wofi --dmenu --no-actions -sort-order=alphabetical --insensitive --allow-images
+set $menu wofi -a --show=drun -sort-order=alphabetical -i -I
 
 ### Output configuration
 {{- if eq .chezmoi.hostname "lachata" }}
