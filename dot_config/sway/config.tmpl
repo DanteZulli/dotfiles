@@ -47,6 +47,7 @@ workspace 6 output DP-2
 {{- end }}
 
 ### Input configuration
+input "type:pointer" accel_profile flat
 {{- if eq .chezmoi.hostname "negrita"}}
 input type:keyboard {
     xkb_layout es
