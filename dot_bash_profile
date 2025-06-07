@@ -10,5 +10,3 @@
 export QT_QPA_PLATFORMTHEME="qt6ct" 
 export PATH="$PATH:/home/dante/.local/bin"
 
-# Others
-fortune
