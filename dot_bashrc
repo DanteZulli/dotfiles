@@ -17,6 +17,11 @@ alias grep='grep --color=auto'
 PS1='\[\e[92m\][\t\[\e[0m\] \[\e[92m\]-\[\e[0m\] \[\e[92m\]\u@\H\[\e[0m\] \[\e[92m\]\W]\[\e[0m\] \[\e[92m\]\\$\[\e[0m\] '
 
 #
+# Misc
+#
+fortune
+
+#
 # Exports
 #
 export EDITOR=/usr/bin/nano
