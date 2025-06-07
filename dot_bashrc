@@ -20,12 +20,7 @@ PS1='\[\e[92m\][\t\[\e[0m\] \[\e[92m\]-\[\e[0m\] \[\e[92m\]\u@\H\[\e[0m\] \[\e[9
 # Exports
 #
 export EDITOR=/usr/bin/nano
-
-fortune
-
-# Created by `pipx` on 2025-06-07 17:08:48
 export PATH="$PATH:/home/dante/.local/bin"
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+# THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
