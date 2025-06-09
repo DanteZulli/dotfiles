@@ -1,14 +1,52 @@
-include /usr/share/nano/*.nanorc
-
 ## ==== Word Wrap ====
 set atblanks
 set softwrap
 
 ## ==== UI Styling ====
 set linenumbers
+# Minimal Bottom Bar instead of Top Bar
 set minibar
+# Help Messages
 set nohelp
+# Disable Cursor Blinking
 set constantshow
 
 ## ==== Syntax Coloring ====
+# Syntax Definitions
+include /usr/share/nano/*.nanorc
 
+## Gruvbox Dark Colors for Nano
+# Base colors:
+# fg0: #fbf1c7 (lightest foreground)
+# fg1: #ebdbb2
+# fg2: #d5c4a1
+# fg3: #bdae8c
+# fg4: #a89984
+# bg0: #282828 (darkest background)
+# bg1: #3c3836
+# bg2: #504945
+# bg3: #665c54
+# bg4: #7c6f64
+# bg0_h: #1d2021 (hard background)
+# bg0_s: #32302f (soft background)
+
+# Accent colors:
+# red: #cc241d
+# green: #98971a
+# yellow: #d79921
+# blue: #458588
+# purple: #b16286
+# aqua: #689d6a
+# orange: #d65d0e
+
+set titlecolor bold,#fbf1c7,#458588     # Blue accent for title
+set promptcolor #ebdbb2,#282828      # Standard foreground on dark background
+set statuscolor bold,#fbf1c7,#98971a    # Green accent for status
+set errorcolor bold,#fbf1c7,#cc241d     # Red for errors
+set spotlightcolor #ebdbb2,#504945   # Slightly lighter background for spotlight
+set selectedcolor #fbf1c7,#665c54    # Lighter foreground on slightly darker background for selection
+set stripecolor ,#3c3836            # Subtle background for stripes
+set scrollercolor #bdae8c,#282828    # Desaturated foreground on dark background
+set numbercolor #83a598             # Aqua/blue-ish for line numbers
+set keycolor #83a598                # Aqua/blue-ish for key hints
+set functioncolor #98971a           # Green for function keys
