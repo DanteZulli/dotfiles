@@ -56,6 +56,12 @@ input type:keyboard {
     xkb_layout es
 }
 {{- end}}
+{{- if eq .chezmoi.hostname "lachata" }}
+input type:keyboard {
+    xkb_layout us
+    xkb_variant intl
+}
+{{- end}}
 ### Key bindings
 #
 # Basics:
