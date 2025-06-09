@@ -1,1 +1,14 @@
 include /usr/share/nano/*.nanorc
+
+## ==== Word Wrap ====
+set atblanks
+set softwrap
+
+## ==== UI Styling ====
+set linenumbers
+set minibar
+set nohelp
+set constantshow
+
+## ==== Syntax Coloring ====
+
