@@ -39,14 +39,14 @@ include /usr/share/nano/*.nanorc
 # aqua: #689d6a
 # orange: #d65d0e
 
-set titlecolor bold,#fbf1c7,#458588     # Blue accent for title
-set promptcolor #ebdbb2,#282828      # Standard foreground on dark background
-set statuscolor bold,#fbf1c7,#98971a    # Green accent for status
-set errorcolor bold,#fbf1c7,#cc241d     # Red for errors
-set spotlightcolor #ebdbb2,#504945   # Slightly lighter background for spotlight
-set selectedcolor #fbf1c7,#665c54    # Lighter foreground on slightly darker background for selection
-set stripecolor ,#3c3836            # Subtle background for stripes
-set scrollercolor #bdae8c,#282828    # Desaturated foreground on dark background
-set numbercolor #83a598             # Aqua/blue-ish for line numbers
-set keycolor #83a598                # Aqua/blue-ish for key hints
-set functioncolor #98971a           # Green for function keys
+set titlecolor bold,#fbf1c7,#458588
+set promptcolor #ebdbb2,#282828
+set statuscolor bold,#fbf1c7,#98971a
+set errorcolor bold,#fbf1c7,#cc241d
+set spotlightcolor #ebdbb2,#504945
+set selectedcolor #fbf1c7,#665c54
+set stripecolor ,#3c3836
+set scrollercolor #bdae8c,#282828
+set numbercolor #83a598
+set keycolor #83a598
+set functioncolor #98971a
