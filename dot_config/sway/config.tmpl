@@ -25,12 +25,12 @@ output * bg /usr/share/backgrounds/my-backgrounds/wall.jpg fill
 {{- if eq .chezmoi.hostname "lachata" }}
 output DP-1 {
     resolution 1920x1080
-    pos 0 0
+    pos 1080 0
 }
 output DP-2 {
     resolution 1080x1920
-    pos 1920 0
-    transform 90
+    pos 0 0
+    transform 270
 }
 # Workspaces para DP-1
 workspace 1 output DP-1
