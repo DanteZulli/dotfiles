@@ -219,11 +219,12 @@ bindsym $mod+r mode "resize"
 bar swaybar_command waybar
 
 #
-# Execs
+# AutoStart (Execs)
 #
 exec mako
 exec wlsunset -l -34.6 -L -58.4
 exec nwg-wrapper -t bindings.pango -c bindings.css -p left
-exec_always /usr/bin/octopi-notifier
+exec /usr/bin/octopi-notifier
+exec blueman-applet
 
 include ~/.config/sway/config.d/*
