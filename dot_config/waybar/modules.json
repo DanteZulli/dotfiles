@@ -1,7 +1,4 @@
 {
-    "sway/workspaces": {
-        "all-outputs": true
-    },
     "sway/window": {
     	"max-length": 50
     },
