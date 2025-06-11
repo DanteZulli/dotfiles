@@ -1,27 +1,27 @@
 <span face="monospace" size="small">
-Terminal                     <span foreground="#689d6a">Mod+Return</span>
-Lanzador                     <span foreground="#689d6a">Mod+D</span>
-Cerrar Ventana               <span foreground="#689d6a">Mod+Shift+Q</span>
-Recargar Sway                <span foreground="#689d6a">Mod+Shift+C</span>
-Salir Sway                   <span foreground="#689d6a">Mod+Shift+E</span>
+Terminal                     <span foreground="#5294e2">Mod+Return</span>
+Lanzador                     <span foreground="#5294e2">Mod+D</span>
+Cerrar Ventana               <span foreground="#5294e2">Mod+Shift+Q</span>
+Recargar Sway                <span foreground="#5294e2">Mod+Shift+C</span>
+Salir Sway                   <span foreground="#5294e2">Mod+Shift+E</span>
 
-Mover Foco                   <span foreground="#689d6a">Mod+Flechas</span>
-Mover Contenedor             <span foreground="#689d6a">Mod+Shift+Flechas</span>
-Cambiar Workspace            <span foreground="#689d6a">Mod+1...0</span>
-Mover a Workspace            <span foreground="#689d6a">Mod+Shift+1...0</span>
+Mover Foco                   <span foreground="#5294e2">Mod+Flechas</span>
+Mover Contenedor             <span foreground="#5294e2">Mod+Shift+Flechas</span>
+Cambiar Workspace            <span foreground="#5294e2">Mod+1...0</span>
+Mover a Workspace            <span foreground="#5294e2">Mod+Shift+1...0</span>
 
-Dividir Horizontal           <span foreground="#689d6a">Mod+B</span>
-Dividir Vertical             <span foreground="#689d6a">Mod+V</span>
-Layout Stacking              <span foreground="#689d6a">Mod+S</span>
-Layout Tabbed                <span foreground="#689d6a">Mod+W</span>
-Alternar Layout              <span foreground="#689d6a">Mod+E</span>
-Pantalla Completa            <span foreground="#689d6a">Mod+F</span>
-Alternar Floating            <span foreground="#689d6a">Mod+Shift+Space</span>
-Foco Tiling/Floating         <span foreground="#689d6a">Mod+Space</span>
-Foco Padre                   <span foreground="#689d6a">Mod+A</span>
+Dividir Horizontal           <span foreground="#5294e2">Mod+B</span>
+Dividir Vertical             <span foreground="#5294e2">Mod+V</span>
+Layout Stacking              <span foreground="#5294e2">Mod+S</span>
+Layout Tabbed                <span foreground="#5294e2">Mod+W</span>
+Alternar Layout              <span foreground="#5294e2">Mod+E</span>
+Pantalla Completa            <span foreground="#5294e2">Mod+F</span>
+Alternar Floating            <span foreground="#5294e2">Mod+Shift+Space</span>
+Foco Tiling/Floating         <span foreground="#5294e2">Mod+Space</span>
+Foco Padre                   <span foreground="#5294e2">Mod+A</span>
 
-Modo Redimensionar           <span foreground="#689d6a">Mod+R</span>
-Redimensionar                <span foreground="#689d6a">H/J/K/L</span> o <span foreground="#689d6a">Flechas</span>
-Salir Modo Resize            <span foreground="#689d6a">Return</span> o <span foreground="#689d6a">Escape</span>
+Modo Redimensionar           <span foreground="#5294e2">Mod+R</span>
+Redimensionar                <span foreground="#5294e2">H/J/K/L</span> o <span foreground="#5294e2">Flechas</span>
+Salir Modo Resize            <span foreground="#5294e2">Return</span> o <span foreground="#5294e2">Escape</span>
 
 </span>
