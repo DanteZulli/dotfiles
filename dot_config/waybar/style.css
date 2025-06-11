@@ -1,31 +1,37 @@
 * {
-    border: none;
-    font-family: "CaskaydiaCove Nerd Font Mono", "Font Awesome 6 Free Solid", "Font Awesome 6 Free Regular", "Font Awesome 6 Brands Regular";
-    font-size: 13px;
-    padding: 0;
-    margin: 0;
-    border-radius: 0;
-    color: white;
+  border: none;
+  font-family: "CaskaydiaCove Nerd Font Mono", "Font Awesome 6 Free Solid",
+    "Font Awesome 6 Free Regular", "Font Awesome 6 Brands Regular";
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  color: #e6e6e6; /* Color de texto general para una buena legibilidad */
 }
 
 window#waybar {
-    background-color: rgba(29, 32, 33, 0.8);
+  background-color: rgba(
+    56,
+    60,
+    74,
+    0.8
+  ); /* Fondo de Waybar: #383c4a con 80% de opacidad */
 }
 
 #workspaces {
-    margin-right: 0.5em;
+  margin-right: 0.5em;
 }
 
 #workspaces button {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 #workspaces button.focused {
-    background-color: #458588;
+  background-color: #5294e2; /* Espacio de trabajo enfocado: #5294e2 (azul vibrante) */
 }
 
 #workspaces button.urgent {
-    background-color: #cc241d;
+  background-color: #7c818c; /* Espacio de trabajo urgente: #7c818c (gris claro) */
 }
 
 #clock,
@@ -34,44 +40,51 @@ window#waybar {
 #network,
 #pulseaudio,
 #tray {
-    border-right: 1px solid rgba(251, 241, 199, 0.2);
-    padding-left: 8px;
-    padding-right: 8px;
+  border-right: 1px solid
+    rgba(
+      75,
+      81,
+      98,
+      0.2
+    ); /* Borde divisor: #4b5162 con 20% de opacidad */
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 #clock {
-    border-right: none;
+  border-right: none;
 }
 
-#battery.charging, #battery.plugged {
-    color: #98971a;
+#battery.charging,
+#battery.plugged {
+  color: #5294e2; /* Batería cargando/enchufada: #5294e2 (azul vibrante) */
 }
 
 @keyframes blink {
-    to {
-        color: #cc241d;
-    }
+  to {
+    color: #7c818c; /* Color de parpadeo crítico: #7c818c (gris claro) */
+  }
 }
 
-/* Using steps() instead of linear as a timing function to limit cpu usage */
+/* Usando steps() en lugar de linear como función de temporización para limitar el uso de CPU */
 #battery.critical:not(.charging) {
-    color: #ffffff;
-    animation-name: blink;
-    animation-duration: 0.5s;
-    animation-timing-function: steps(12);
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+  color: #e6e6e6; /* Color inicial de batería crítica: #e6e6e6 */
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: steps(12);
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 #network.disconnected {
-    color: #cc241d;
+  color: #7c818c; /* Red desconectada: #7c818c (gris claro) */
 }
 
 #tray > .passive {
-    -gtk-icon-effect: dim;
+  -gtk-icon-effect: dim;
 }
 
 #tray > .needs-attention {
-    -gtk-icon-effect: highlight;
-    background-color: #cc241d;
+  -gtk-icon-effect: highlight;
+  background-color: #7c818c; /* Ícono de bandeja que necesita atención: #7c818c (gris claro) */
 }
