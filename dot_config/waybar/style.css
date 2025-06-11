@@ -14,8 +14,8 @@ window#waybar {
     56,
     60,
     74,
-    0.8
-  ); /* Fondo de Waybar: #383c4a con 80% de opacidad */
+    1
+  );
 }
 
 #workspaces {
