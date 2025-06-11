@@ -221,10 +221,10 @@ bar swaybar_command waybar
 #
 # AutoStart (Execs)
 #
-exec mako
-exec wlsunset -l -34.6 -L -58.4
-exec nwg-wrapper -t bindings.pango -c bindings.css -p left
-exec /usr/bin/octopi-notifier
-exec blueman-applet
+exec_always mako
+exec_always wlsunset -l -34.6 -L -58.4
+exec_always nwg-wrapper -t bindings.pango -c bindings.css -p left
+exec_always /usr/bin/octopi-notifier
+exec_always blueman-applet
 
 include ~/.config/sway/config.d/*
