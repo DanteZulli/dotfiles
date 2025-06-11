@@ -7,10 +7,6 @@ window {
 }
 
 #box-inner {
-  background-color: rgba(64,69,82,1);
-  border-radius: 5px;
-  border-style: dotted;
-  border-width: 1px;
-  border-color: rgba(75,81,98,0.7);
+  background-color: rgba(64,69,82,0.8);
   padding: 10px;
 }
