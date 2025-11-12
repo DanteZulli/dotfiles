@@ -4,7 +4,6 @@
 
 [[ $- != *i* ]] && return
 
-# Misc
 pokemon-colorscripts -r 1
 fortune
 
