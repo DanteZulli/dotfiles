@@ -1,0 +1,22 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 0,
+    "margin": "0 0 0 0",
+    "modules-left": [
+        "sway/workspaces",
+	"sway/window",
+	"sway/mode",
+    ],
+    "modules-center": [],
+    "modules-right": [
+	"pulseaudio",
+	"network",
+        "tray",
+	"battery",
+	"clock",
+    ],
+
+     // Load Modules
+    "include": ["~/.config/waybar/modules.json"]
+}

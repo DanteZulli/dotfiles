@@ -1,0 +1,47 @@
+{
+    "sway/window": {
+    	"max-length": 50
+    },
+    "sway/mode": {
+        "format": "<span style=\"italic\"> {} </span>"
+    },
+    "tray": {
+        "spacing": 5,
+	"tooltip": false
+    },
+    "clock": {
+        "timezone": "America/Argentina/Buenos_Aires",
+        "format": "{:%Y-%m-%d %H:%M:%S}",
+	"tooltip": false,
+	"interval": 1,
+    },
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "B: {capacity}%",
+        "format-charging": "B: {capacity}% Chr",
+        "format-plugged": "B: {capacity}% Conn",
+        "format-alt": "{time}",
+    },
+    "network": {
+        "tooltip": true,
+	"rotate": 0,
+	"format-wifi": "W: {bandwidthDownBytes} - {bandwidthUpBytes}",
+	"format-ethernet": "E: {bandwidthDownBytes} - {bandwidthUpBytes}",
+	"format-disconnected": "Disconnected",
+	"tooltip-format": "{ifname}: {ipaddr} - {signalStrength}%",
+	"tooltip-format-disconnected": "Disconnected",
+	"interval": 5,
+    },
+    "pulseaudio": {
+        "scroll-step": 1,
+        "max-volume": 150,
+        "format": "V: {volume}%",
+	"format-muted": "muted",
+        "nospacing": 1,
+        "on-click": "pavucontrol",
+        "tooltip": false
+    },
+}
