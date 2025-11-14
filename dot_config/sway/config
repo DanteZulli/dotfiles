@@ -15,7 +15,7 @@ set $down j
 set $up k
 set $right l
 set $term foot
-set $menu wofi -a --show=drun -i
+set $menu wofi -a --show=drun -i --allow-images
 
 #####################
 ### Output
