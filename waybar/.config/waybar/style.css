@@ -31,7 +31,6 @@ tooltip label {
 
 #workspaces button.active {
   color: @fg1;
-  border-bottom: 0.17em solid @blue;
 }
 
 #workspaces button.urgent {

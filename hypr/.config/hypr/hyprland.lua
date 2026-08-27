@@ -14,7 +14,7 @@ hl.monitor({
 -------------------
 
 local terminal = "foot"
-local menu = "hyprlauncher"
+local menu = "wofi --show drun"
 
 -------------------
 ---- AUTOSTART ----
