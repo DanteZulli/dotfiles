@@ -40,11 +40,10 @@ tooltip label {
 #workspaces {
   border-bottom: 0.17em solid @blue;
   color: @blue;
-  padding: 0 0.4em;
+  padding: 0 0.2em;
 }
 
 #window {
-  border-bottom: 0.17em solid @aqua;
   color: @aqua;
   padding: 0 0.4em;
 }
