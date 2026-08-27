@@ -1,19 +1,6 @@
 # Dotfiles — Stow Cheatsheet
 
-Managed with [GNU Stow](https://www.gnu.org/software/stow/). Stow only creates symlinks from `~/dotfiles/<package>` → `~`.
-
-```
-bash/     -> ~/.bashrc, ~/.bash_profile
-git/      -> ~/.gitconfig
-hypr/     -> ~/.config/hypr
-foot/     -> ~/.config/foot
-waybar/   -> ~/.config/waybar
-zed/      -> ~/.config/zed
-opencode/ -> ~/.config/opencode
-nano/     -> ~/.nanorc
-```
-
-Run all from `~/dotfiles`:
+Managed with [GNU Stow](https://www.gnu.org/software/stow/). Stow creates symlinks from `~/dotfiles/<package>` → `~`.
 
 ```bash
 stow -v <pkg>          # link package
@@ -24,7 +11,7 @@ stow -R -v <pkg>       # relink (after adding files)
 stow --adopt -v <pkg>  # move existing files in ~ into dotfiles (check git diff after)
 ```
 
-### Workflow
+## Workflow
 
 ```bash
 # Edit — ~/.config/hypr and ~/dotfiles/hypr/.config/hypr are the same file
@@ -43,12 +30,4 @@ git add newpkg && git commit -m "Add newpkg"
 
 # Remove
 stow -D -v waybar
-```
-
-### Fix & Verify
-
-```bash
-# "existing target is not owned by stow" → mv ~/.config/<thing> ~/dotfiles/<pkg>/.config/<thing> first
-ls -l ~/.config ~/.bashrc ~/.gitconfig  # should show -> dotfiles/...
-git status
 ```
