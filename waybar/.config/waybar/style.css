@@ -2,13 +2,12 @@
 
 * {
   font-family: "JetBrainsMono Nerd Font Mono", monospace;
-  font-size: 13px;
+  font-size: 14px;
   border: none;
   border-radius: 0;
   min-height: 0;
 }
 
-/* Bar: opaque, plain text */
 window#waybar {
   background: @bg0;
   color: @fg1;
@@ -17,18 +16,17 @@ window#waybar {
 tooltip {
   background: @bg0_s;
   color: @fg1;
-  border: 1px solid @bg3;
+  border: 0.08em solid @bg3;
 }
 
 tooltip label {
   color: @fg1;
 }
 
-/* Workspaces: plain text, no pill background */
 #workspaces button {
   color: @fg4;
   background: transparent;
-  padding: 0 6px;
+  padding: 0 0.5em;
 }
 
 #workspaces button.active {
@@ -37,4 +35,45 @@ tooltip label {
 
 #workspaces button.urgent {
   color: @bright_red;
+}
+
+#workspaces {
+  border-bottom: 0.17em solid @blue;
+  color: @blue;
+  padding: 0 0.4em;
+}
+
+#window {
+  border-bottom: 0.17em solid @aqua;
+  color: @aqua;
+  padding: 0 0.4em;
+}
+
+#cpu {
+  border-bottom: 0.17em solid @green;
+  color: @green;
+  padding: 0 0.4em;
+}
+
+#memory {
+  border-bottom: 0.17em solid @purple;
+  color: @purple;
+  padding: 0 0.4em;
+}
+
+#pulseaudio {
+  border-bottom: 0.17em solid @orange;
+  color: @orange;
+  padding: 0 0.4em;
+}
+
+#network {
+  border-bottom: 0.17em solid @bright_blue;
+  color: @bright_blue;
+  padding: 0 0.4em;
+}
+
+#tray {
+  border-bottom: 0.17em solid @gray;
+  padding: 0 0.4em;
 }
