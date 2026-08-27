@@ -14,7 +14,7 @@ update:
     done
     git add -A
     if git diff --cached --quiet; then
-        echo "No hay cambios para commitear."
+        echo "No changes to commit."
         if [ -n "$(git log --branches --not --remotes 2>/dev/null)" ]; then git push; fi
         exit 0
     fi
