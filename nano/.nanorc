@@ -1,5 +1,39 @@
+## === Set options ===
+
+set atblanks
 set linenumbers
 set mouse
+set softwrap
 set autoindent
+set breaklonglines
 set tabsize 4
+set minibar
+set nohelp
 set constantshow
+
+## Gruvbox Dark
+set numbercolor #987
+set titlecolor bold,#edc,#333
+set statuscolor bold,#edc,#333
+set promptcolor #fb2,#333
+set errorcolor bold,#ffc,#c21
+set spotlightcolor #122,#fb2
+set selectedcolor #edc,#544
+set stripecolor ,#333
+set scrollercolor #987,#122
+set keycolor #8a9
+set functioncolor #a98
+set minicolor #edc,#333
+
+## === Syntax coloring ===
+
+include /usr/share/nano/*.nanorc
+
+## === Key bindings ===
+
+bind ^C copy main
+bind ^V paste all
+bind ^S savefile main
+bind ^F whereis all
+bind ^Z undo main
+bind ^Y redo main
