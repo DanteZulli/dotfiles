@@ -16,9 +16,9 @@
     "max-length": 50,
   },
   "pulseaudio": {
-    "format": "{icon} {volume}% {format_source}",
-    "format-bluetooth": "{icon} {volume}% {format_source}",
-    "format-muted": "󰝟 muted {format_source}",
+    "format": "{icon} {volume}%",
+    "format-bluetooth": "{icon} {volume}%",
+    "format-muted": "󰝟 muted",
     "format-icons": {
       "headphone": "",
       "hands-free": "",
