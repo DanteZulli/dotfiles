@@ -24,13 +24,39 @@ tooltip label {
 }
 
 #workspaces button {
-    color: @fg4;
+    color: @fg1;
     background: transparent;
     padding: 0 0.5em;
+    border-bottom: 0.17em solid transparent;
 }
 
-#workspaces button.active {
+#workspaces button.active,
+#workspaces button.focused {
     color: @fg1;
+    border-bottom: 0.17em solid @yellow;
+}
+
+/* desactivar hover/focus - sin indicación de cliqueable */
+#workspaces button:hover,
+#workspaces button:focus,
+#workspaces button:active {
+    background: transparent;
+    box-shadow: none;
+    text-shadow: none;
+    color: @fg1;
+    border-bottom: 0.17em solid transparent;
+}
+
+#workspaces button.active:hover,
+#workspaces button.focused:hover,
+#workspaces button.active:focus,
+#workspaces button.focused:focus,
+#workspaces button.active:active,
+#workspaces button.focused:active {
+    background: transparent;
+    box-shadow: none;
+    color: @fg1;
+    border-bottom: 0.17em solid @yellow;
 }
 
 #workspaces button.urgent {
@@ -74,4 +100,8 @@ tooltip label {
 #tray {
     border-bottom: 0.17em solid @gray;
     padding: 0 0.4em;
+}
+
+#clock {
+    font-weight: bold;
 }
