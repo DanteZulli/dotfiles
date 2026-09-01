@@ -105,3 +105,21 @@ tooltip label {
 #clock {
     font-weight: bold;
 }
+
+#custom-voxtype {
+    color: @fg1;
+    background-color: @bg1;
+    border-radius: 6px;
+    padding: 0 0.6em;
+    margin: 3px 2px;
+}
+
+#custom-voxtype.recording {
+    color: @bright_red;
+    background-color: @bg2;
+}
+
+#custom-voxtype.transcribing {
+    color: @bright_yellow;
+    background-color: @bg2;
+}

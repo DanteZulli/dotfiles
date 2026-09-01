@@ -4,7 +4,7 @@
   "height": 32,
   "spacing": 4,
   "modules-left": ["hyprland/workspaces", "hyprland/window"],
-  "modules-center": ["clock"],
+  "modules-center": ["custom/voxtype", "clock"],
   "modules-right": ["tray", "cpu", "memory", "pulseaudio", "network"],
   "hyprland/workspaces": {
     "format": "{name}",
@@ -50,5 +50,13 @@
   },
   "tray": {
     "spacing": 10,
+  },
+  "custom/voxtype": {
+    "exec": "voxtype status --format json",
+    "return-type": "json",
+    "interval": 1,
+    "on-click": "voxtype record toggle",
+    "format": "󰍬 {alt}",
+    "tooltip": true,
   },
 }
