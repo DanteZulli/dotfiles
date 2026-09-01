@@ -46,7 +46,7 @@ device = "default"
 sample_rate = 16000
 
 # Maximum recording duration in seconds (safety limit)
-max_duration_secs = 60
+max_duration_secs = 180
 
 # Pause MPRIS media players (Spotify, Firefox, etc.) before recording starts,
 # then resume them as soon as recording stops. Talks D-Bus directly; no external
@@ -148,17 +148,8 @@ translate = true
 # Default: 300 (5 minutes). Only applies when gpu_isolation = false.
 # cold_model_timeout_secs = 300
 
-# --- Eager processing settings ---
-#
-# Enable eager input processing (transcribe chunks while recording continues)
-# Reduces perceived latency on slower machines by processing audio in parallel.
-# eager_processing = false
-#
-# Duration of each audio chunk in seconds (default: 5.0)
-# eager_chunk_secs = 5.0
-#
-# Overlap between chunks in seconds (helps catch words at boundaries, default: 0.5)
-# eager_overlap_secs = 0.5
+eager_processing = true
+on_demand_loading = true
 
 # --- Remote backend settings (used when backend = "remote") ---
 #
@@ -348,13 +339,8 @@ layout = "compact"
 # opacity = 1.0
 # mirror = true
 
-# [vad]
-# Voice Activity Detection - filters silence-only recordings
-# Prevents Whisper hallucinations on silent audio
-#
-# enabled = false      # Enable VAD (off by default)
-# threshold = 0.5      # 0.0 = sensitive, 1.0 = aggressive
-# min_speech_duration_ms = 100  # Minimum speech required
+[vad]
+enabled = true
 
 # [status]
 # Status display icons for Waybar/tray integrations
