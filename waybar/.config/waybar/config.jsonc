@@ -4,8 +4,9 @@
   "height": 32,
   "spacing": 4,
   "modules-left": ["hyprland/workspaces", "hyprland/window"],
-  "modules-center": ["clock", "custom/voxtype"],
+  "modules-center": ["clock"],
   "modules-right": [
+    "custom/voxtype",
     "tray",
     "cpu",
     "memory",
