@@ -26,7 +26,7 @@ hl.on("hyprland.start", function()
     hl.exec_cmd("hyprsunset")
     hl.exec_cmd("hyprpaper")
     hl.exec_cmd("systemctl --user start hyprpolkitagent")
-    hl.exec_cmd("voxtype daemon -q")
+    hl.exec_cmd("voxtype daemon")
 end)
 
 -------------------
