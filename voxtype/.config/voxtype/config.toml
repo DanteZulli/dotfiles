@@ -310,7 +310,7 @@ on_transcription = true
 # - gtk4: Default toolkit frontend
 # - native: SCTK + wgpu + egui frontend
 # - quickshell: QML frontend with recipe/style customization
-frontend = "gtk4"
+frontend = "native"
 
 # Quickshell style customization. These fields are ignored by gtk4/native.
 # style can be "default", an installed package name, or a package path.
