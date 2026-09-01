@@ -4,9 +4,8 @@
   "height": 32,
   "spacing": 4,
   "modules-left": ["hyprland/workspaces", "hyprland/window"],
-  "modules-center": ["clock"],
+  "modules-center": ["clock", "custom/voxtype"],
   "modules-right": [
-    "custom/voxtype",
     "tray",
     "cpu",
     "memory",
@@ -59,10 +58,8 @@
     "spacing": 10,
   },
   "custom/voxtype": {
-    "exec": "voxtype status --format json",
+    "exec": "voxtype status --follow --format json",
     "return-type": "json",
-    "interval": 1,
-    "on-click": "voxtype record toggle",
     "format": "󰍬",
     "tooltip": false,
   },
