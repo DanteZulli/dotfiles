@@ -108,7 +108,7 @@ model = "large-v3-turbo"
 # I speak Spanish but always want English output
 #  - language = "es" : tells Whisper the input is Spanish (accurate transcription)
 #  - translate = true: translates that Spanish transcription to English
-language = "es"
+language = "auto"
 
 # Translate non-English speech to English
 translate = true
