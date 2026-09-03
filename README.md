@@ -3,3 +3,11 @@
 Managed with [GNU Stow](https://www.gnu.org/software/stow/) + [just](https://github.com/casey/just). Each folder is a stow package (`~/dotfiles/<pkg>` → `~`).
 
 Just edit/add files and run `just update` — it restows everything, commits with timestamp, and pushes.
+
+## Fresh machine
+
+```bash
+sudo pacman -S stow just git
+git clone git@github.com:DanteZulli/dotfiles.git ~/dotfiles
+cd ~/dotfiles && just update
+```
