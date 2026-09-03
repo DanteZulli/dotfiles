@@ -30,4 +30,11 @@
     "light": "One Light",
     "dark": "Gruvbox Dark Hard",
   },
+  "agent_servers": {
+    "OpenCode": {
+      "type": "custom",
+      "command": "opencode",
+      "args": ["acp"]
+    }
+  }
 }
