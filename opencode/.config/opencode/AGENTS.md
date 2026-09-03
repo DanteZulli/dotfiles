@@ -28,7 +28,6 @@ Applied to every opencode session (global `~/.config/opencode/AGENTS.md`).
   - `bat` over `cat` for preview
   - `eza`/`lsd` over `ls` when listing with details
   - `ast-grep`/`rg --type` for code-aware search
-- For the opencode tool layer: still use built-in `grep`/`glob`/`read` tools; the preference above applies to `bash` commands you run.
 
 ## General
 
