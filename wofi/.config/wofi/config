@@ -1,8 +1,10 @@
+allow_images=true
+image_size=32
 hide_scroll=true
 mode=drun
 no_actions=true
 sort_order=alphabetical
-width=10%
+width=15%
 insensitive=true
 matching=fuzzy
 drun-ignore_metadata=true
