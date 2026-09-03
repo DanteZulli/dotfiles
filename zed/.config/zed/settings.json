@@ -7,6 +7,17 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "language_models": {
+    "opencode": {
+      "show_zen_models": true,
+      "show_go_models": true
+    }
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
   "format_on_save": "on",
   "autosave": "on_focus_change",
   "project_panel": {
