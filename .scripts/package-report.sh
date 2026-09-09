@@ -25,3 +25,5 @@ for f in packages-explicit.txt packages-foreign.txt packages-flatpak.txt; do
         echo "  (new file, no previous version to compare)"
     fi
 done
+
+exit 0
