@@ -1,0 +1,5 @@
+com.discordapp.Discord
+com.heroicgameslauncher.hgl
+net.davidotek.pupgui2
+org.prismlauncher.PrismLauncher
+page.kramo.Cartridges

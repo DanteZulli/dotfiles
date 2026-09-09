@@ -12,6 +12,8 @@ update:
         [ -z "$(ls -A "$pkg" 2>/dev/null)" ] && continue
         stow -R -v "$pkg" 2>&1 | sed 's/^/  /'
     done
+    # Refresh package inventory so installs/removals are tracked in git.
+    bash .scripts/package-report.sh
     git add -A
     if git diff --cached --quiet; then
         echo "No changes to commit."
