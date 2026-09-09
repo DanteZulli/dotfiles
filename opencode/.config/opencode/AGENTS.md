@@ -16,7 +16,6 @@ Applied to every opencode session (global `~/.config/opencode/AGENTS.md`).
   - `description`: imperative mood, lowercase, no trailing period, <=72 chars header
   - Body/footer optional: wrap at 72 chars, use `BREAKING CHANGE:` footer when needed
 - Examples: `feat: add user auth`, `fix(api): handle null token`, `chore(deps): bump zod`
-- For `~/dotfiles` repo, prefer `chore(dotfiles): update YYYY-MM-DD HH:MM:SS` to satisfy both the repo's `Justfile:22` convention and Conventional Commits.
 
 ## Tools - Prefer Optimized Modern Alternatives
 
@@ -32,3 +31,9 @@ Applied to every opencode session (global `~/.config/opencode/AGENTS.md`).
 ## General
 
 - Keep changes minimal and focused. Verify with tests/build when relevant.
+
+## Privileged Commands
+
+- `sudo` requires an interactive password and cannot complete from an agent shell. Use `pkexec` instead.
+- `pkexec` prompts for approval via the running polkit agent (`hyprpolkitagent`). Each invocation pops a GUI dialog the user must accept, so announce it before running and keep privileged commands one at a time.
+- Never add `NOPASSWD` sudo rules, and never ask for or store the user password.
