@@ -31,6 +31,7 @@ Applied to every opencode session (global `~/.config/opencode/AGENTS.md`).
 ## General
 
 - Keep changes minimal and focused. Verify with tests/build when relevant.
+- For library or framework documentation, prefer the `context7-cli` skill (`ctx7 docs`) over training data whenever docs may be outdated.
 
 ## Privileged Commands
 
