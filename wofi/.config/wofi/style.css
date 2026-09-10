@@ -16,12 +16,6 @@ window {
     padding: 6px;
 }
 
-#img {
-    margin-right: 8px;
-    min-width: 32px;
-    min-height: 32px;
-}
-
 #entry:selected {
     background-color: #689d6a;
 }
