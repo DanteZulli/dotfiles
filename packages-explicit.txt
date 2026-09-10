@@ -77,6 +77,8 @@ stow
 sudo
 sweethome3d
 tela-circle-icon-theme-all
+tesseract
+tesseract-data-spa
 ttf-cascadia-code-nerd
 ttf-dejavu
 ttf-jetbrains-mono-nerd
