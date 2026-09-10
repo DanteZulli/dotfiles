@@ -1,6 +1,4 @@
--- Look and feel (wiki: Configuring > Core > Config options).
--- General, animations, dwindle, master and scrolling layouts.
--- hl.config() merges: each call updates only the passed values.
+-- hl.config() merges, so each call only updates the values it passes.
 
 hl.config({
     general = {

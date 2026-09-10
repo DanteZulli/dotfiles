@@ -1,6 +1,3 @@
--- Window and workspace rules (wiki: Configuring > Core > Rules > Window rules).
--- https://wiki.hypr.land/configuring/core/rules/window-rules/
-
 hl.window_rule({
     name = "suppress-maximize-events",
     match = { class = ".*" },

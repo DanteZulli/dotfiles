@@ -1,6 +1,3 @@
--- Misc (wiki: Configuring > Variables > Misc).
--- https://wiki.hypr.land/configuring/variables/#misc
-
 hl.config({
     misc = {
         force_default_wallpaper = 0,

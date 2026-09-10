@@ -1,6 +1,3 @@
--- Input (wiki: Configuring > Core > Devices).
--- https://wiki.hypr.land/configuring/core/devices/
-
 hl.config({
     input = {
         kb_layout = "us",

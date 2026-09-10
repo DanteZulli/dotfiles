@@ -1,7 +1,4 @@
--- Multimedia binds (wiki: Configuring > Core > Binds > Flags: locked, repeating).
-
 return function()
-    -- Laptop multimedia keys for volume and LCD brightness
     hl.bind(
         "XF86AudioRaiseVolume",
         hl.dsp.exec_cmd("wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+"),

@@ -1,6 +1,3 @@
--- Environment variables (wiki: Configuring > Advanced and Cool > Environment variables).
--- Set before the display server initializes.
-
 hl.env("XCURSOR_SIZE", "24")
 hl.env("HYPRCURSOR_SIZE", "24")
 hl.env("GTK_THEME", "Gruvbox-Green-Dark")
