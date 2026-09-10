@@ -18,7 +18,7 @@
 - Single source of truth: `fontconfig/.config/fontconfig/fonts.conf`. Base family is named exactly once there (`sans-serif` → Nerd Propo for UI, `monospace` → Nerd Mono for terminal, plus Noto Color Emoji + Font Awesome fallback).
 - fontconfig/pango apps (foot, waybar, wofi, mako, gtk) must use the generic `monospace`/`sans-serif` aliases, never a hardcoded family. A future family swap is then a 3-line change in `fonts.conf`.
 - Exception: `zed/.config/zed/settings.json` and `qt5ct`/`qt6ct` need real family names (`Mono` for code/fixed, `Propo` for UI/general) — those stacks do not reliably resolve generic aliases and Mono-vs-Propo can only be expressed explicitly.
-- GTK also reads dconf: `org.gnome.desktop.interface font-name` / `monospace-font-name` override `settings.ini`, so keep them on the generic aliases via `gsettings set` (one-time runtime state, not a repo file).
+- GTK also reads dconf: `org.gnome.desktop.interface` font keys override `settings.ini`, so leave them on the generic aliases (one-time `gsettings set`, not tracked).
 - Sizes are per-app (pt vs px differ, no central mechanism): foot 12, waybar 14px, wofi 24px, gtk 11, mako 12, zed buffer 15 / UI 16.
 - Requirements for a base family: nerd-patched, OSS-licensed, ships both Mono and Propo variants.
 
