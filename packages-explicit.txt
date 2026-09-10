@@ -51,6 +51,7 @@ noto-fonts-emoji
 opencode
 openssh
 otf-font-awesome
+otf-geist-mono-nerd
 pikaur
 pipewire
 pipewire-alsa
