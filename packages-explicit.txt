@@ -82,7 +82,6 @@ tesseract
 tesseract-data-spa
 ttf-cascadia-code-nerd
 ttf-dejavu
-ttf-jetbrains-mono-nerd
 ufw
 unzip
 uwsm
