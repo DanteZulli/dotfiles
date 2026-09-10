@@ -1,3 +1,6 @@
 cliamp
+gruvbox-gtk-theme-git
+gtk2
+gtk-engine-murrine
 pikaur
 voxtype

@@ -20,6 +20,7 @@ gamescope
 github-cli
 gnome-themes-extra
 grim
+gruvbox-gtk-theme-git
 gst-plugin-pipewire
 gvfs-smb
 htop
@@ -83,6 +84,7 @@ tesseract
 tesseract-data-spa
 ttf-cascadia-code-nerd
 ttf-dejavu
+ttf-hack-nerd
 ufw
 unzip
 uwsm
