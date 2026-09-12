@@ -6,6 +6,7 @@ package.path = os.getenv("HOME")
     .. package.path
 
 require("hyprland.autostart")
+require("hyprland.env")
 require("hyprland.look_and_feel")
 require("hyprland.input")
 require("hyprland.misc")
