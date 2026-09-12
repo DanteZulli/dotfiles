@@ -8,6 +8,8 @@
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
+krabby random
+
 eval "$(starship init bash)"
 eval "$(direnv hook bash)"
 
