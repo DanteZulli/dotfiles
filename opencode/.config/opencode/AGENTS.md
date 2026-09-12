@@ -31,7 +31,7 @@ Applied to every opencode session (global `~/.config/opencode/AGENTS.md`).
 ## General
 
 - Keep changes minimal and focused. Verify with tests/build when relevant.
-- For library or framework documentation, prefer the `context7-cli` skill (`ctx7 docs`) over training data whenever docs may be outdated.
+- For any library, framework, or tool documentation (API shapes, config syntax, versioned behavior), always use the `context7-cli` skill (`ctx7 docs`) to fetch current docs instead of relying on training data. Never guess an API or schema from memory.
 
 ## Privileged Commands
 

@@ -10,8 +10,6 @@ hl.config({
             inactive_border = "rgba(3c3836ff)",
         },
         resize_on_border = true,
-        allow_tearing = false,
-        layout = "dwindle",
     },
     animations = {
         enabled = false,
@@ -21,17 +19,5 @@ hl.config({
 hl.config({
     dwindle = {
         preserve_split = true,
-    },
-})
-
-hl.config({
-    master = {
-        new_status = "master",
-    },
-})
-
-hl.config({
-    scrolling = {
-        fullscreen_on_one_column = true,
     },
 })
