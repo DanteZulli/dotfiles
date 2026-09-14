@@ -6,6 +6,7 @@ sort_order=alphabetical
 width=10%
 insensitive=true
 matching=fuzzy
+term=foot
 drun-ignore_metadata=true
 lines=20
 line_wrap=word

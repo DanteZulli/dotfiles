@@ -36,6 +36,8 @@ kvantum
 kvantum-qt5
 lazygit
 less
+lib32-gamemode
+lib32-vulkan-radeon
 libpulse
 libreoffice-fresh
 limine
@@ -100,6 +102,7 @@ wl-clipboard
 wofi
 wtype
 xdg-desktop-portal-hyprland
+xdg-terminal-exec
 xdg-utils
 xf86-video-amdgpu
 xf86-video-ati
