@@ -1,2 +1,5 @@
-# opencode deps
-opencode/.config/opencode/node_modules
+# opencode: ignore everything by default, only version AGENTS.md and opencode.jsonc
+opencode/.config/opencode/*
+!opencode/.config/opencode/AGENTS.md
+!opencode/.config/opencode/opencode.jsonc
+!opencode/.config/opencode/.gitignore

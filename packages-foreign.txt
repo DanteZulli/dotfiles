@@ -3,6 +3,6 @@ gruvbox-gtk-theme-git
 gtk2
 gtk-engine-murrine
 krabby-bin
+onlyoffice-bin
 pikaur
 voxtype
-xdg-terminal-exec

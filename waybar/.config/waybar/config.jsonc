@@ -32,7 +32,7 @@
       "headset": "",
       "default": ["󰕿", "󰖀", "󰕾"],
     },
-    "on-click": "pavucontrol",
+    "on-click": "xdg-terminal-exec wiremix",
     "tooltip-format": "{desc} — {volume}%",
   },
   "network": {

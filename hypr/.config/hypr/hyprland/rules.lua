@@ -1,4 +1,16 @@
 hl.window_rule({
+    name = "center-floating",
+    match = { float = true },
+    center = true,
+})
+
+hl.window_rule({
+    name = "sweethome3d-no-center",
+    match = { class = "com-eteks-sweethome3d-.*" },
+    center = false,
+})
+
+hl.window_rule({
     name = "sweethome3d-tooltip",
     match = { class = "com-eteks-sweethome3d-.*", title = "^win[0-9]+$", xwayland = true },
     float = true,
