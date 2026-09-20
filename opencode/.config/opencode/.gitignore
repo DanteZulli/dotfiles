@@ -1,5 +1,6 @@
-# Ignore everything by default, only version AGENTS.md and opencode.jsonc
+# Ignore everything by default, only version AGENTS.md, opencode.jsonc and cli.json
 *
 !AGENTS.md
 !opencode.jsonc
+!cli.json
 !.gitignore
