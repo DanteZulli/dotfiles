@@ -3,7 +3,7 @@
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
-krabby random 1
+krabby random --no-variant 1
 
 eval "$(starship init bash)"
 eval "$(direnv hook bash)"
