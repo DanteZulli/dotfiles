@@ -4,26 +4,26 @@ GNU Stow repo. Every top-level dir (except dot-dirs like `.scripts/`, `.git/`) i
 
 ## Package index (17 packages)
 
-| Package | Repo path | Stows to |
-|---|---|---|
-| `agents` | `agents/.agents/skills/*` | `~/.agents/skills/*` (dir symlink at `~/.agents/skills`) |
-| `bash` | `bash/.bashrc`, `.bash_profile`, `.bash_logout` | `~/.bashrc`, `~/.bash_profile`, `~/.bash_logout` |
-| `fontconfig` | `fontconfig/.config/fontconfig/fonts.conf` | `~/.config/fontconfig/fonts.conf` |
-| `foot` | `foot/.config/foot/foot.ini` | `~/.config/foot/` |
-| `git` | `git/.gitconfig` | `~/.gitconfig` |
-| `gtk` | `gtk/.config/gtk-3.0/settings.ini`, `gtk/.config/gtk-4.0/settings.ini` | `~/.config/gtk-3.0/`, `~/.config/gtk-4.0/` |
-| `hypr` | `hypr/.config/hypr/hyprland.lua`, `hyprpaper.conf`, `hyprsunset.conf`, `hyprland/*.lua` | `~/.config/hypr/` |
-| `kvantum` | `kvantum/.config/Kvantum/` | `~/.config/Kvantum/` |
-| `mako` | `mako/.config/mako/config` | `~/.config/mako/config` |
-| `mangohud` | `mangohud/.config/MangoHud/MangoHud.conf` | `~/.config/MangoHud/` |
-| `nano` | `nano/.nanorc` | `~/.nanorc` |
-| `opencode` | `opencode/.config/opencode/AGENTS.md`, `opencode.jsonc` | `~/.config/opencode/` (whole-dir symlink) |
-| `qt5ct` | `qt5ct/.config/qt5ct/qt5ct.conf` | `~/.config/qt5ct/` |
-| `qt6ct` | `qt6ct/.config/qt6ct/qt6ct.conf` | `~/.config/qt6ct/` |
-| `voxtype` | `voxtype/.config/voxtype/config.toml` | `~/.config/voxtype/` |
-| `waybar` | `waybar/.config/waybar/config.jsonc`, `style.css`, `colors.css` | `~/.config/waybar/` |
-| `wofi` | `wofi/.config/wofi/config`, `style.css` | `~/.config/wofi/` |
-| `zed` | `zed/.config/zed/settings.json` | `~/.config/zed/settings.json` |
+| Package      | Repo path                                                                               | Stows to                                                 |
+| ------------ | --------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| `agents`     | `agents/.agents/skills/*`                                                               | `~/.agents/skills/*` (dir symlink at `~/.agents/skills`) |
+| `bash`       | `bash/.bashrc`, `.bash_profile`, `.bash_logout`                                         | `~/.bashrc`, `~/.bash_profile`, `~/.bash_logout`         |
+| `fontconfig` | `fontconfig/.config/fontconfig/fonts.conf`                                              | `~/.config/fontconfig/fonts.conf`                        |
+| `foot`       | `foot/.config/foot/foot.ini`                                                            | `~/.config/foot/`                                        |
+| `git`        | `git/.gitconfig`                                                                        | `~/.gitconfig`                                           |
+| `gtk`        | `gtk/.config/gtk-3.0/settings.ini`, `gtk/.config/gtk-4.0/settings.ini`                  | `~/.config/gtk-3.0/`, `~/.config/gtk-4.0/`               |
+| `hypr`       | `hypr/.config/hypr/hyprland.lua`, `hyprpaper.conf`, `hyprsunset.conf`, `hyprland/*.lua` | `~/.config/hypr/`                                        |
+| `kvantum`    | `kvantum/.config/Kvantum/`                                                              | `~/.config/Kvantum/`                                     |
+| `mako`       | `mako/.config/mako/config`                                                              | `~/.config/mako/config`                                  |
+| `mangohud`   | `mangohud/.config/MangoHud/MangoHud.conf`                                               | `~/.config/MangoHud/`                                    |
+| `nano`       | `nano/.nanorc`                                                                          | `~/.nanorc`                                              |
+| `opencode`   | `opencode/.config/opencode/AGENTS.md`, `opencode.jsonc`                                 | `~/.config/opencode/` (whole-dir symlink)                |
+| `qt5ct`      | `qt5ct/.config/qt5ct/qt5ct.conf`                                                        | `~/.config/qt5ct/`                                       |
+| `qt6ct`      | `qt6ct/.config/qt6ct/qt6ct.conf`                                                        | `~/.config/qt6ct/`                                       |
+| `voxtype`    | `voxtype/.config/voxtype/config.toml`                                                   | `~/.config/voxtype/`                                     |
+| `waybar`     | `waybar/.config/waybar/config.jsonc`, `style.css`, `colors.css`                         | `~/.config/waybar/`                                      |
+| `wofi`       | `wofi/.config/wofi/config`, `style.css`                                                 | `~/.config/wofi/`                                        |
+| `zed`        | `zed/.config/zed/settings.json`                                                         | `~/.config/zed/settings.json`                            |
 
 Non-package paths: `.scripts/package-report.sh` (inventory generator, never stowed), `Justfile` (stow + commit + push driver), `packages-*.txt` (generated inventory), `README.md` / `AGENTS.md` (repo docs, never stowed).
 
@@ -32,6 +32,10 @@ Non-package paths: `.scripts/package-report.sh` (inventory generator, never stow
 - `hypr`: entrypoint is `hypr/.config/hypr/hyprland.lua`, modules live in `hyprland/` (`binds/`, `autostart.lua`, `env.lua`, `input.lua`, `look_and_feel.lua`, `misc.lua`, `rules.lua`). Edit the module, not a monolithic conf.
 - `opencode`: `~/.config/opencode` is a whole-dir symlink to the repo, so `opencode/.config/opencode/AGENTS.md` IS the global `~/.config/opencode/AGENTS.md`. `opencode.jsonc` sets `instructions: ["~/.config/opencode/AGENTS.md", "AGENTS.md"]` (global + project). `node_modules/`, `package.json`, `package-lock.json` under that dir are git-ignored (see `opencode/.config/opencode/.gitignore` + root `.gitignore`) and untracked — reinstall with npm/bun on fresh machines, do not `git add` them.
 - `agents`: only `skills/` (`context7-cli`, `tdd`, `find-skills`) plus references. Stows as `~/.agents/skills` symlink.
+
+## Comment standard
+
+- No comments in config files. Code is self-explanatory; ask if unsure.
 
 ## Workflow for agents
 

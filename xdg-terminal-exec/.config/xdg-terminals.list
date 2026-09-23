@@ -1,4 +1,1 @@
-# Preferred terminals for xdg-terminal-exec, highest priority first.
-# Format: one Desktop Entry ID per line, see
-# https://github.com/Vladimir-csp/xdg-terminal-exec
 foot.desktop

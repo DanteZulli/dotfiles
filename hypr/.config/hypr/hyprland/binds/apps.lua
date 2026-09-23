@@ -5,5 +5,5 @@ return function(mainMod)
     hl.bind(mainMod .. " + SHIFT + space", hl.dsp.window.float({ action = "toggle" }))
     hl.bind(mainMod .. " + D", hl.dsp.exec_cmd("wofi --show drun"))
     hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
-    hl.bind(mainMod .. " + E", hl.dsp.layout("togglesplit")) -- dwindle only
+    hl.bind(mainMod .. " + E", hl.dsp.layout("togglesplit"))
 end

@@ -1,5 +1,3 @@
--- hl.config() merges, so each call only updates the values it passes.
-
 hl.config({
     general = {
         gaps_in = 4,

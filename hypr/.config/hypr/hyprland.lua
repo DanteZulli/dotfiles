@@ -1,4 +1,3 @@
--- Resolve require("hyprland.*") relative to this config dir.
 package.path = os.getenv("HOME")
     .. "/.config/hypr/?.lua;"
     .. os.getenv("HOME")

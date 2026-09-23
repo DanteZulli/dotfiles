@@ -1,5 +1,3 @@
-/* Gruvbox Dark — waybar colors.css */
-
 @define-color bg0_h  #1d2021;
 @define-color bg0    #282828;
 @define-color bg0_s  #32302f;
@@ -15,7 +13,6 @@
 @define-color fg3    #bdae93;
 @define-color fg4    #a89984;
 
-/* Accent colors — normal */
 @define-color red    #cc241d;
 @define-color green  #98971a;
 @define-color yellow #d79921;
@@ -24,7 +21,6 @@
 @define-color aqua   #689d6a;
 @define-color orange #d65d0e;
 
-/* Bright variants */
 @define-color bright_red    #fb4934;
 @define-color bright_green  #b8bb26;
 @define-color bright_yellow #fabd2f;

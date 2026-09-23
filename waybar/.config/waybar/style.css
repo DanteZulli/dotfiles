@@ -36,7 +36,6 @@ tooltip label {
     border-bottom: 0.17em solid @yellow;
 }
 
-/* desactivar hover/focus - sin indicación de cliqueable */
 #workspaces button:hover,
 #workspaces button:focus,
 #workspaces button:active {

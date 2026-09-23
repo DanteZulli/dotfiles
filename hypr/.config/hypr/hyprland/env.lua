@@ -1,6 +1,3 @@
--- Single source of truth for session env. The session starts via ly +
--- start-hyprland (no uwsm), so systemd environment.d never reaches GUI
--- apps. Do not split these into environment.d again.
 hl.env("XCURSOR_SIZE", "24")
 hl.env("HYPRCURSOR_SIZE", "24")
 hl.env("GTK_THEME", "Gruvbox-Green-Dark")
