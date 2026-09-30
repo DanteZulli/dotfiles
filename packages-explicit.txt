@@ -1,5 +1,7 @@
 alsa-utils
+amberol
 amd-ucode
+android-tools
 base
 base-devel
 bat
@@ -12,6 +14,7 @@ direnv
 efibootmgr
 eza
 fastfetch
+fatsort
 fd
 firefox
 flatpak
@@ -21,6 +24,7 @@ gamemode
 gamescope
 github-cli
 gnome-themes-extra
+go
 grim
 gruvbox-gtk-theme-git
 gst-plugin-pipewire
@@ -51,6 +55,7 @@ mesa-utils
 mkinitcpio
 nano
 nautilus
+nicotine+
 noto-fonts
 noto-fonts-emoji
 onlyoffice-bin

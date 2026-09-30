@@ -3,5 +3,21 @@
   "instructions": ["~/.config/opencode/AGENTS.md", "AGENTS.md"],
   "lsp": true,
   "formatter": true,
-  "permission": "allow"
+  "permission": "allow",
+  "mcp": {
+    "playwright": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@playwright/mcp@latest",
+        "--headless",
+        "--user-data-dir",
+        "/home/dante/.config/chromium-playwright",
+        "--executable-path",
+        "/usr/sbin/chromium"
+      ],
+      "enabled": true
+    }
+  }
 }
