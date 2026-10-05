@@ -3,9 +3,9 @@
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
-fortune -s
+krabby random --no-variant --no-title 1
 
-krabby random --no-variant 1
+fortune -s
 
 eval "$(starship init bash)"
 eval "$(direnv hook bash)"
