@@ -3,6 +3,8 @@
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
+fortune -s
+
 krabby random --no-variant 1
 
 eval "$(starship init bash)"

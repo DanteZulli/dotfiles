@@ -20,6 +20,7 @@ firefox
 flatpak
 foliate
 foot
+fortune-mod
 gamemode
 gamescope
 github-cli
