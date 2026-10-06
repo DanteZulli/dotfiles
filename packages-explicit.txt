@@ -11,6 +11,9 @@ btrfs-progs
 chromium
 cliamp
 direnv
+docker
+docker-buildx
+docker-compose
 efibootmgr
 eza
 fastfetch
@@ -71,8 +74,6 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 pnpm
-podman
-podman-compose
 python-pipx
 qt5ct
 qt5-wayland
