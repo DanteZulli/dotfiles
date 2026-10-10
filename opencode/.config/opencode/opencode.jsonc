@@ -3,7 +3,23 @@
   "instructions": ["~/.config/opencode/AGENTS.md", "AGENTS.md"],
   "lsp": true,
   "formatter": true,
-  "permission": "allow",
+  "permissions": [
+    {
+      "action": "*",
+      "resource": "*",
+      "effect": "allow"
+    },
+    {
+      "action": "shell",
+      "resource": "git *",
+      "effect": "ask"
+    },
+    {
+      "action": "shell",
+      "resource": "*/git *",
+      "effect": "ask"
+    }
+  ],
   "mcp": {
     "servers": {
       "playwright": {

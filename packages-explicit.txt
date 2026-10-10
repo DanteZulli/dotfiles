@@ -8,6 +8,7 @@ bat
 biber
 bind
 btrfs-progs
+calibre
 chromium
 cliamp
 direnv
@@ -74,6 +75,7 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 pnpm
+prusa-slicer
 python-pipx
 qt5ct
 qt5-wayland
