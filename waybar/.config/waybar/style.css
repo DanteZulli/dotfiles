@@ -72,10 +72,24 @@ tooltip label {
     padding: 0 0.4em;
 }
 
-#cpu {
+#cpu-monitor {
     border-bottom: 0.17em solid @green;
     color: @green;
-    padding: 0 0.4em;
+    padding: 0 0.2em;
+}
+
+#gpu-monitor {
+    border-bottom: 0.17em solid @yellow;
+    color: @yellow;
+    padding: 0 0.2em;
+}
+
+#cpu-monitor #cpu,
+#cpu-monitor #temperature,
+#gpu-monitor #custom-gpu,
+#gpu-monitor #temperature {
+    border-bottom: none;
+    padding: 0 0.25em;
 }
 
 #memory {

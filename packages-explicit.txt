@@ -2,11 +2,13 @@ alsa-utils
 amberol
 amd-ucode
 android-tools
+aria2
 base
 base-devel
 bat
 biber
 bind
+btop
 btrfs-progs
 calibre
 chromium
