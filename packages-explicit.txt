@@ -27,6 +27,7 @@ foot
 fortune-mod
 gamemode
 gamescope
+ggml-vulkan
 github-cli
 gnome-themes-extra
 go
@@ -53,6 +54,7 @@ libpulse
 limine
 linux-firmware
 linux-zen
+llama-cpp
 ly
 mako
 mangohud
@@ -129,7 +131,6 @@ ufw
 unzip
 uwsm
 vim
-voxtype
 vulkan-radeon
 waybar
 wev
@@ -138,7 +139,6 @@ wiremix
 wireplumber
 wl-clipboard
 wofi
-wtype
 xdg-desktop-portal-hyprland
 xdg-terminal-exec
 xdg-utils

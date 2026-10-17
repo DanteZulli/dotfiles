@@ -12,7 +12,7 @@ Arch Hyprland setup managed with [GNU Stow](https://www.gnu.org/software/stow/) 
 | `git` | `~/.gitconfig` |
 | `hypr` | `~/.config/hypr/` (`hyprland.lua` + `hyprland/` modules, `hyprpaper.conf`, `hyprsunset.conf`) |
 | `mako`, `waybar`, `wofi` | notifications, bar (`config.jsonc` + css), launcher |
-| `mangohud`, `voxtype`, `zed`, `nano` | `~/.config/MangoHud/`, `~/.config/voxtype/`, `~/.config/zed/`, `~/.nanorc` |
+| `mangohud`, `zed`, `nano`        | `~/.config/MangoHud/`, `~/.config/zed/`, `~/.nanorc`       |
 | `opencode` | `~/.config/opencode/` (whole-dir symlink: `AGENTS.md` global instructions + `opencode.jsonc`) |
 
 Meta: `Justfile` (restow + commit + push), `.scripts/package-report.sh` (inventory generator), `packages-*.txt` (generated inventory), `AGENTS.md` (agent instructions).

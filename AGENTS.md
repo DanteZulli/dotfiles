@@ -2,7 +2,7 @@
 
 GNU Stow repo. Every top-level dir (except dot-dirs like `.scripts/`, `.git/`) is a stow package mirroring `$HOME`. `~/dotfiles/<pkg>/...` stows to `~/...`.
 
-## Package index (17 packages)
+## Package index (16 packages)
 
 | Package      | Repo path                                                                               | Stows to                                                 |
 | ------------ | --------------------------------------------------------------------------------------- | -------------------------------------------------------- |
@@ -20,7 +20,6 @@ GNU Stow repo. Every top-level dir (except dot-dirs like `.scripts/`, `.git/`) i
 | `opencode`   | `opencode/.config/opencode/AGENTS.md`, `opencode.jsonc`                                 | `~/.config/opencode/` (whole-dir symlink)                |
 | `qt5ct`      | `qt5ct/.config/qt5ct/qt5ct.conf`                                                        | `~/.config/qt5ct/`                                       |
 | `qt6ct`      | `qt6ct/.config/qt6ct/qt6ct.conf`                                                        | `~/.config/qt6ct/`                                       |
-| `voxtype`    | `voxtype/.config/voxtype/config.toml`                                                   | `~/.config/voxtype/`                                     |
 | `waybar`     | `waybar/.config/waybar/config.jsonc`, `style.css`, `colors.css`                         | `~/.config/waybar/`                                      |
 | `wofi`       | `wofi/.config/wofi/config`, `style.css`                                                 | `~/.config/wofi/`                                        |
 | `zed`        | `zed/.config/zed/settings.json`                                                         | `~/.config/zed/settings.json`                            |

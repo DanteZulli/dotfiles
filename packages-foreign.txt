@@ -5,4 +5,3 @@ gtk-engine-murrine
 krabby-bin
 onlyoffice-bin
 pikaur
-voxtype

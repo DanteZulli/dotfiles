@@ -104,27 +104,3 @@ tooltip label {
 #clock {
     font-weight: bold;
 }
-
-#custom-voxtype {
-    color: @fg1;
-    background: transparent;
-    padding: 0 0.4em;
-    margin: 0;
-    border-bottom: 0.17em solid transparent;
-}
-
-#custom-voxtype.recording {
-    color: @bright_red;
-    background: transparent;
-}
-
-#custom-voxtype.transcribing {
-    color: @bright_yellow;
-    background: transparent;
-}
-
-#custom-voxtype.idle {
-    color: @fg4;
-    background: transparent;
-    opacity: 0.85;
-}

@@ -6,7 +6,6 @@
   "modules-left": ["hyprland/workspaces", "hyprland/window"],
   "modules-center": ["clock"],
   "modules-right": [
-    "custom/voxtype",
     "tray",
     "cpu",
     "memory",
@@ -57,11 +56,5 @@
   },
   "tray": {
     "spacing": 10,
-  },
-  "custom/voxtype": {
-    "exec": "voxtype status --follow --format json",
-    "return-type": "json",
-    "format": "󰍬",
-    "tooltip": false,
   },
 }
