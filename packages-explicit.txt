@@ -12,7 +12,6 @@ btop
 btrfs-progs
 calibre
 chromium
-cliamp
 direnv
 docker
 docker-buildx
@@ -72,7 +71,6 @@ opencode
 openssh
 otf-font-awesome
 otf-geist-mono-nerd
-persepolis
 pikaur
 pipewire
 pipewire-alsa

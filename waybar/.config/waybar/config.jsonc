@@ -63,13 +63,13 @@
     "interval": 2,
   },
   "custom/gpu": {
-    "exec": "cat /sys/class/drm/card0/device/gpu_busy_percent 2>/dev/null",
+    "exec": "cat /sys/devices/pci0000:00/0000:00:01.1/0000:10:00.0/0000:11:00.0/0000:12:00.0/gpu_busy_percent 2>/dev/null",
     "format": "󰢮 {}%",
     "interval": 2,
     "tooltip": false,
   },
   "temperature#gpu": {
-    "hwmon-path-abs": "/sys/class/drm/card0/device/hwmon",
+    "hwmon-path-abs": "/sys/devices/pci0000:00/0000:00:01.1/0000:10:00.0/0000:11:00.0/0000:12:00.0/hwmon",
     "input-filename": "temp1_input",
     "format": "{temperatureC}°C",
     "tooltip-format": "AMD amdgpu (edge): {temperatureC}°C",
