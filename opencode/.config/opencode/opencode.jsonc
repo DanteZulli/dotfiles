@@ -20,6 +20,45 @@
       "effect": "ask"
     }
   ],
+  "providers": {
+    // Local GGUF models served by the llama.cpp router (systemd: llama-server.service).
+    "local": {
+      "name": "Local GGUF (llama.cpp)",
+      "package": "@opencode/ai/providers/openai-compatible",
+      "settings": {
+        "baseURL": "http://127.0.0.1:8080/v1"
+      },
+      "models": {
+        // IDs must match the preset sections in ~/.gguf/llama.ini.
+        "ornith-1.5-9b": {
+          "modelID": "ornith",
+          "name": "Ornith 1.5 9B Q5_K_M (local, vision)",
+          "capabilities": {
+            "tools": true,
+            "input": ["text", "image"],
+            "output": ["text"]
+          },
+          "limit": {
+            "context": 8192,
+            "output": 4096
+          }
+        },
+        "qwen2.5.1-coder-7b": {
+          "modelID": "qwen251-coder",
+          "name": "Qwen2.5.1 Coder 7B Q5_K_M (local)",
+          "capabilities": {
+            "tools": true,
+            "input": ["text"],
+            "output": ["text"]
+          },
+          "limit": {
+            "context": 8192,
+            "output": 4096
+          }
+        }
+      }
+    }
+  },
   "mcp": {
     "servers": {
       "playwright": {
